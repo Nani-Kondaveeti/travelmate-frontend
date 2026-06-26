@@ -1,0 +1,117 @@
+.package-card{
+
+    width:340px;
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.12);
+
+    transition:.35s;
+
+}
+
+.package-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.package-image{
+
+    position:relative;
+
+    height:230px;
+
+    overflow:hidden;
+
+}
+
+.package-image img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    transition:.4s;
+
+}
+
+.package-card:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.offer{
+
+    position:absolute;
+
+    top:15px;
+
+    left:15px;
+
+    background:#ff4d4d;
+
+    color:white;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}
+
+.package-details{
+
+    padding:22px;
+
+}
+
+.package-details h2{
+
+    margin-bottom:12px;
+
+}
+
+.package-details p{
+
+    margin-bottom:12px;
+
+    color:#666;
+
+}
+
+.package-details h3{
+
+    color:#0099ff;
+
+    margin-bottom:18px;
+
+}
+
+.package-details button{
+
+    width:100%;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#00b894;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
