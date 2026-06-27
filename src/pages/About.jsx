@@ -1,52 +1,48 @@
-import React from "react";
+import "./About.css";
 
-const About = () => {
+function About() {
   return (
-    <div className="container py-5">
-      <div className="text-center mb-5">
-        <h1 className="fw-bold">About TravelMate</h1>
-        <p className="text-muted">
+    <div className="about-container">
+      <div className="about-card">
+        <h1>About TravelMate</h1>
+
+        <p className="tagline">
           Your trusted companion for planning memorable journeys.
         </p>
-      </div>
 
-      <div className="card shadow border-0 p-4">
-        <h3 className="mb-3">Who We Are</h3>
+        <h2>Who We Are</h2>
+
         <p>
-          TravelMate is a smart travel planning platform designed to make
-          travelling easier, faster, and more enjoyable. Whether you're planning
-          a family vacation, a solo adventure, or a business trip, TravelMate
-          helps you discover destinations, organize itineraries, and manage your
-          travel plans effortlessly.
+          TravelMate is an online travel planning platform that helps users
+          explore destinations, organize trips, and make travel easier.
         </p>
 
-        <h3 className="mt-4 mb-3">Our Mission</h3>
+        <h2>Our Mission</h2>
+
         <p>
-          Our mission is to simplify travel planning by providing users with an
-          easy-to-use platform that offers destination information, personalized
-          recommendations, and seamless trip management.
+          Our mission is to simplify travel planning by providing an easy,
+          secure, and user-friendly experience for every traveler.
         </p>
 
-        <h3 className="mt-4 mb-3">Why Choose TravelMate?</h3>
+        <h2>Features</h2>
 
         <ul>
-          <li>🌍 Discover popular tourist destinations.</li>
-          <li>📅 Plan trips with ease.</li>
-          <li>🗺️ Organize your travel itinerary.</li>
-          <li>🔒 Secure and user-friendly platform.</li>
-          <li>📱 Responsive design for desktop and mobile.</li>
+          <li>🌍 Explore famous destinations</li>
+          <li>🗺️ Plan your itinerary</li>
+          <li>📅 Manage your trips</li>
+          <li>🔒 Secure user accounts</li>
+          <li>📱 Mobile-friendly design</li>
         </ul>
 
-        <h3 className="mt-4 mb-3">Our Vision</h3>
+        <h2>Our Vision</h2>
 
         <p>
-          We believe every journey should be memorable. TravelMate aims to
-          become your trusted travel companion by making travel planning simple,
-          organized, and stress-free.
+          We aim to become the most trusted travel companion for travelers
+          around the world.
         </p>
       </div>
     </div>
   );
-};
+}
 
 export default About;
